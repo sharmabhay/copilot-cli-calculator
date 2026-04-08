@@ -1,20 +1,22 @@
-# Python-generated files
+# Python bytecode
 __pycache__/
 *.py[oc]
+
+# Build & distribution
 build/
 dist/
 wheels/
 *.egg-info
+
+# Environment & dependencies
+.venv/
 .python-version
-.pytest_cache/
+uv.lock
 pyproject.toml
 
-# Virtual environments
-.venv
-uv.lock
-
+# Tool caches
+.pytest_cache/
 .ruff_cache/
 
-
-# Prompt and instruction files
+# AI prompts & instructions
 prompts/
