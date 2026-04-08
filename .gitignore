@@ -8,11 +8,9 @@ dist/
 wheels/
 *.egg-info
 
-# Environment & dependencies
+# Environment
 .venv/
 .python-version
-uv.lock
-pyproject.toml
 
 # Tool caches
 .pytest_cache/
